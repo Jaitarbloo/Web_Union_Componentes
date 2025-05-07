@@ -1,0 +1,13 @@
+*.db
+*.py[cod]
+git*$py.class
+.env
+.venv
+env/
+venv/
+assets/external/
+.states
+__pycache__/
+.web
+node_modules/
+.DS_Store
