@@ -44,7 +44,7 @@ def Zabalgana_web_Vercel():
             ],
             columns="2",
             spacing="6",
-            padding="2em",
+            padding="4em",
         ),
         rx.divider(),
         rx.heading("Contáctame", size="6"),
@@ -70,7 +70,8 @@ def Zabalgana_web_Vercel():
     align="center",
     width="100%",
     height="70vh",
-    margin_top="9em"
+    margin_top="16em",
+    
     )
 
 app = rx.App()

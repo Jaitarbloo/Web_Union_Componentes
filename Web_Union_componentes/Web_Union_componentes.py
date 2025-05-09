@@ -7,6 +7,7 @@ from Componente_Favicon_rotando import Favicon_rotando
 from Componente_Navbar import navbar
 from Componente_Cambio_imagen import Cambio_imagen
 from Componente_Zabalgana_Web import Zabalgana_web_Vercel
+from Componente_Cambio_fondo import Cambio_fondo
 
 
 class State(rx.State):
@@ -14,7 +15,7 @@ class State(rx.State):
     pass
 
 def index():
-      return rx.vstack(
+    return rx.vstack(
         navbar(),
         rx.heading(
             "WEB en construcción....disculpen las molestias",
@@ -23,12 +24,21 @@ def index():
             size="8",
             margin_top="3em",
             color="red"),
+        Cambio_fondo(),
+        rx.text(
+            "¡Hola! Soy un desarrollador web freelance.",
+            align="center",
+            width="100%",
+            size="8",
+            padding="3em",
+        ),
         Ampliacion_fotos(),
         rx.text(
             "Talento freelance listo para tu proyecto",
             align="center",
             width="100%",
-            size="8"
+            size="8",
+            padding="3em",
         ),
         Carrusel(),
         rx.text(
@@ -47,12 +57,12 @@ def index():
         Cambio_imagen(),
         Zabalgana_web_Vercel(),
         width="100%",
-        min_height="100vh",  # Asegura que el fondo cubra toda la altura
-        bg="linear-gradient(90deg, #11998e 0%, #38ef7d 100%)",  # Cambia el color de fondo aquí
+        min_height="100  # Asegura que el fondo cubra toda la alturavh  # Asegura que el fondo cubra toda la altura",  # Asegura que el fondo cubra toda la altura
+        background_color="Blue",  # Cambia el color de fondo a blanco
     )
 
 app = rx.App(
-    stylesheets=[],  # Tus hojas de estilo si las tienes
+    stylesheets=["/animation.css"],  # Tus hojas de estilo si las tienes
     head_components=[
         rx.html("<html lang='es'>"),  # Indica el idioma español
     ]
