@@ -8,6 +8,7 @@ from Componente_Navbar import navbar
 from Componente_Cambio_imagen import Cambio_imagen
 from Componente_Zabalgana_Web import Zabalgana_web_Vercel
 from Componente_Cambio_fondo import Cambio_fondo
+from Componente_Reborde_llamativo import Reborde_llamativo
 
 
 class State(rx.State):
@@ -55,6 +56,7 @@ def index():
             size="8"
         ),
         Cambio_imagen(),
+        Reborde_llamativo(),
         Zabalgana_web_Vercel(),
         width="100%",
         min_height="100  # Asegura que el fondo cubra toda la alturavh  # Asegura que el fondo cubra toda la altura",  # Asegura que el fondo cubra toda la altura
