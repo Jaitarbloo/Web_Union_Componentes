@@ -10,10 +10,9 @@ from Componente_Zabalgana_Web import Zabalgana_web_Vercel
 from Componente_Cambio_fondo import Cambio_fondo
 from Componente_Reborde_llamativo import Reborde_llamativo
 
-
 class State(rx.State):
-    """The app state."""
     pass
+
 
 def index():
     return rx.vstack(
@@ -31,7 +30,7 @@ def index():
             align="center",
             width="100%",
             size="8",
-            padding="3em",
+            #padding="3em",
         ),
         Ampliacion_fotos(),
         rx.text(
@@ -39,7 +38,7 @@ def index():
             align="center",
             width="100%",
             size="8",
-            padding="3em",
+            #padding="3em",
         ),
         Carrusel(),
         rx.text(
@@ -59,14 +58,15 @@ def index():
         Reborde_llamativo(),
         Zabalgana_web_Vercel(),
         width="100%",
-        min_height="100  # Asegura que el fondo cubra toda la alturavh  # Asegura que el fondo cubra toda la altura",  # Asegura que el fondo cubra toda la altura
-        background_color="Blue",  # Cambia el color de fondo a blanco
+        min_height="100vh",  # Corregido el valor
+        background_color="Blue",
     )
 
 app = rx.App(
     stylesheets=["/animation.css"],  # Tus hojas de estilo si las tienes
     head_components=[
         rx.html("<html lang='es'>"),  # Indica el idioma español
+
     ]
 )
 app.add_page(index)

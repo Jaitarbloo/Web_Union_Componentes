@@ -14,7 +14,7 @@ class State(rx.State):
 
     ...
 def Cambio_imagen():
-    return rx.center(
+    return rx.flex(
                 rx.image(
                         src=State.image_src,
                         width=["95vw", "550px"],  # Más grande y responsivo
@@ -25,10 +25,10 @@ def Cambio_imagen():
                         on_mouse_enter=State.cambiar_imagen,
                         on_mouse_leave=State.restaurar_imagen,
                     ),
-                    align="center",      # Centra verticalmente
-                    justify="center",    # Centra horizontalmente
-                    height="100vh",
-                    width="100vw",
+                     justify="center",
+                     align="center",
+                     width="100%",
+                     min_height="100vh"
 
     )
 

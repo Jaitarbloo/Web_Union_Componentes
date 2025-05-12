@@ -38,11 +38,11 @@ def Ampliacion_fotos():
             align="center",
             justify="center",
         ),
-        spacing="4",
         justify="center",
         align="center",
         width="100%",
-        height="70vh",
+        bg="#1a1a2e",
+        min_height="100vh"
     )
 
 app = rx.App()

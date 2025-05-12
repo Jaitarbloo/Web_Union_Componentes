@@ -36,6 +36,7 @@ def Favicon_rotando():
                     justify="center",    # Centra horizontalmente
                     height="100vh",
                     width="100vw", 
+                    bg="#1a1a2e"
 
 
     )

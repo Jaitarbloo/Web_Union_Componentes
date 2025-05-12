@@ -20,13 +20,13 @@ def Carrusel():
     return rx.flex(
         rx.image(
             src=State.imagenes[State.indice_actual],
-            width="800px",
-            height="400px"
+            width="700px",
+            height="300px"
         ),
-        align="center",      # Centra verticalmente
-        justify="center",    # Centra horizontalmente
-        height="100vh",
-        width="100vw",
+          justify="center",
+          align="center",
+          width="100%",
+          min_height="100vh"
     )
 
 app = rx.App()
