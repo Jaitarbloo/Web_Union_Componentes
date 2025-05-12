@@ -47,14 +47,18 @@ def navbar() -> rx.Component:
             ),
             width="100%",
             height=rx.breakpoints(initial="60px", sm="80px", lg="100px"),      
-            background="linear-gradient(45deg, red, blue)",
+            # Cambiamos a un gradiente negro-azul
+            background="linear-gradient(45deg, #000033, #0000FF)",
+            # Alternativas:
+            # background="linear-gradient(45deg, #000022, #000088)"
+            # background="linear-gradient(45deg, #1a1a2e, #000066)"
             spacing="9",
             align="center",
             position="fixed",
             top="0",
             z_index="999"
         ),
-        background="linear-gradient(45deg, red, blue)",
+        background="linear-gradient(45deg, #000033, #0000FF)",  # Mismo gradiente
         justify="center",
         align="center",
         width="100%",

@@ -17,14 +17,15 @@ class State(rx.State):
 def index():
     return rx.vstack(
         navbar(),
+        Cambio_fondo(),
         rx.heading(
             "WEB en construcción....disculpen las molestias",
             align="center",
             width="100%",
-            size="8",
-            margin_top="3em",
+            size="9",
+            #margin_top="3em",
             color="red"),
-        Cambio_fondo(),
+        
         rx.text(
             "¡Hola! Soy un desarrollador web freelance.",
             align="center",
