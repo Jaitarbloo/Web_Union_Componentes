@@ -30,12 +30,8 @@ def index():
                     Ampliacion_fotos(),
         
                     Cambio_fondo(), 
-        
-                    rx.text("Talento freelance listo para tu proyecto",
-                            align="center",
-                            width="100%",
-                            size="8",
-                            ),
+
+                    Reborde_llamativo(),
         
                     Carrusel(),
         
