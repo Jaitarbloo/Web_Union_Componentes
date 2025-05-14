@@ -16,58 +16,47 @@ class State(rx.State):
 
 def index():
     return rx.vstack(
-        navbar(),
-        Cambio_fondo(),
-        rx.heading(
-            "WEB en construcción....disculpen las molestias",
-            align="center",
-            width="100%",
-            size="9",
-            #margin_top="3em",
-            color="red"),
+                    
+                    navbar(),
+                    
+                    rx.heading( "WEB en construcción....disculpen las molestias",
+                                align="center",
+                                width="100%",
+                                size="9",
+                                margin_top="3em",
+                                color="red"
+                                ),
+                    
+                    Ampliacion_fotos(),
         
-        rx.text(
-            "¡Hola! Soy un desarrollador web freelance.",
-            align="center",
-            width="100%",
-            size="8",
-            #padding="3em",
-        ),
-        Ampliacion_fotos(),
-        rx.text(
-            "Talento freelance listo para tu proyecto",
-            align="center",
-            width="100%",
-            size="8",
-            #padding="3em",
-        ),
-        Carrusel(),
-        rx.text(
-            "Trabajo rápido, resultados profesionales.",
-            align="center",
-            width="100%",
-            size="8"
-        ), 
-        Favicon_rotando(),
-        rx.text(
-            "¡Contáctame y hagamos magia juntos!",
-            align="center",
-            width="100%",
-            size="8"
-        ),
-        Cambio_imagen(),
-        Reborde_llamativo(),
-        Zabalgana_web_Vercel(),
-        width="100%",
-        min_height="100vh",  # Corregido el valor
-        background_color="Blue",
-    )
+                    Cambio_fondo(), 
+        
+                    rx.text("Talento freelance listo para tu proyecto",
+                            align="center",
+                            width="100%",
+                            size="8",
+                            ),
+        
+                    Carrusel(),
+        
+                    Favicon_rotando(),
+        
+                    Cambio_imagen(),
+        
+                    Reborde_llamativo(),
+        
+                    Zabalgana_web_Vercel(),
+        
+                width="100%",
+                min_height="100vh", 
+                background_color="Blue",
+                padding="0px"
+                
+                )
 
-app = rx.App(
-    stylesheets=["/animation.css"],  # Tus hojas de estilo si las tienes
-    head_components=[
-        rx.html("<html lang='es'>"),  # Indica el idioma español
 
-    ]
+
+app = rx.App( stylesheets=["/animation.css"],  # Tus hojas de estilo si las tienes
+            head_components=[rx.html("<html lang='es'>")]# Indica en el leguaje en el que está la página
 )
 app.add_page(index)

@@ -14,8 +14,13 @@ class State(rx.State):
 
     ...
 def Cambio_imagen():
-    return rx.flex(
-                rx.image(
+    return rx.vstack(
+                    rx.text("¡Contáctame y hagamos magia juntos!",
+                            align="center",
+                            width="100%",
+                            size="8"
+                        ), 
+                    rx.image(
                         src=State.image_src,
                         width=["95vw", "550px"],  # Más grande y responsivo
                         max_width="550px",
@@ -24,13 +29,14 @@ def Cambio_imagen():
                         style={"boxShadow": "0 4px 32px rgba(0,0,0,0.5)"},
                         on_mouse_enter=State.cambiar_imagen,
                         on_mouse_leave=State.restaurar_imagen,
-                    ),
-                     justify="center",
-                     align="center",
-                     width="100%",
-                     min_height="100vh"
+                        margin_top="7em",
+                        ),
+                justify="center",
+                align="center",
+                width="100%",
+                min_height="100vh"
 
-    )
+                )
 
 app = rx.App()
 app.add_page(Cambio_imagen, title="Cambio de Imagen")

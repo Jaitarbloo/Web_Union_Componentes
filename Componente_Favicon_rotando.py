@@ -12,7 +12,15 @@ class State(rx.State):
 
 def Favicon_rotando():
 
-    return rx.center(
+    return rx.vstack(
+
+                rx.text("¡Hola! Soy un desarrollador web freelance.",
+                            align="center",
+                            width="100%",
+                            size="8",
+                            #padding="3em",
+                            color="white"
+                            ),
                 rx.image(
                         src="python.webp",
                         width=["70vw", "320px"],  # Más grande y cuadrada
@@ -30,13 +38,14 @@ def Favicon_rotando():
                         on_mouse_enter=State.girar_favicon,
                         on_mouse_leave=State.detener_favicon,
                         margin_bottom="1.5em",
+                        margin_top="7em"
                       
                     ),
-                    align="center",      # Centra verticalmente
-                    justify="center",    # Centra horizontalmente
-                    height="100vh",
-                    width="100vw", 
-                    bg="#1a1a2e"
+                align="center",      # Centra verticalmente
+                justify="center",    # Centra horizontalmente
+                height="100vh",
+                width="100vw", 
+                bg="#1a1a2e"
 
 
     )
