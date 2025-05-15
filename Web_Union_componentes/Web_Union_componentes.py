@@ -9,6 +9,7 @@ from Componente_Cambio_imagen import Cambio_imagen
 from Componente_Zabalgana_Web import Zabalgana_web_Vercel
 from Componente_Cambio_fondo import Cambio_fondo
 from Componente_Reborde_llamativo import Reborde_llamativo
+from Componente_Doble_fondo import Doble_fondo
 
 class State(rx.State):
     pass
@@ -31,7 +32,7 @@ def index():
         
                     Cambio_fondo(), 
 
-                    Reborde_llamativo(),
+                    Doble_fondo(),
         
                     Carrusel(),
         
