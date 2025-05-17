@@ -27,7 +27,8 @@ def index():
                                 margin_top="3em",
                                 color="red"
                                 ),
-                    
+
+                                        
                     Ampliacion_fotos(),
         
                     Cambio_fondo(), 

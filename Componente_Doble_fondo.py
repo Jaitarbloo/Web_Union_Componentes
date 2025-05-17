@@ -12,7 +12,11 @@ def Doble_fondo():
                                         color="white"
                                         ),
 
-                                rx.box("Contenido llamativo",
+                                #rx.box("Contenido llamativo",
+                                rx.image(
+                                            src="/coche.jpg",
+                                             width="400px",
+                                             height="400px",
                                         background="linear-gradient(#e66465, #9198e5)",
                                         box_shadow="10px 5px 5px red",
                                         border_radius="20px",
@@ -20,7 +24,7 @@ def Doble_fondo():
                                         color="white",
                                         font_size="2em",
                                         text_align="center",
-                                        margin_top="5em"
+                                        margin_top="2em"
                                         ),
                             align="center",      # Centra verticalmente
                             justify="center",              
