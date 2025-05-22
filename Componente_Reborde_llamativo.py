@@ -17,7 +17,7 @@ def Reborde_llamativo():
                                         ),
                                     
                                     rx.image(
-                                            src="bici.jpg",
+                                            src="/wallpapersden.com_galaxy-stars-over-mountain_1280x720.jpg",
                                             alt="Mi foto bonita",
                                             width=["300px", "350px", "400px"],  # Ancho más grande
                                             height=["200px", "250px", "300px"],  # Altura más pequeña para efecto ovalado

@@ -4,13 +4,13 @@ from rxconfig import config
 
 class State(rx.State):
 
-    image_src: str = "/20250413_113851 (2).jpg"
+    image_src: str = "/556334.jpg"
     
     def cambiar_imagen(self):
-        self.image_src = "python.webp"
+        self.image_src = "/629083.jpg"
 
     def restaurar_imagen(self):
-        self.image_src = "/20250413_113851 (2).jpg" 
+        self.image_src = "/556334.jpg" 
 
     ...
 def Cambio_imagen():

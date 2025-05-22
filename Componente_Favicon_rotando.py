@@ -22,7 +22,7 @@ def Favicon_rotando():
                             color="white"
                             ),
                 rx.image(
-                        src="python.webp",
+                        src="/3971879.webp",
                         width=["70vw", "320px"],  # Más grande y cuadrada
                         height=["70vw", "320px"],
                         max_width="320px",

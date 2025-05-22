@@ -14,7 +14,7 @@ def Doble_fondo():
 
                                 #rx.box("Contenido llamativo",
                                 rx.image(
-                                            src="/coche.jpg",
+                                            src="/1871835.jpg",
                                              width="400px",
                                              height="400px",
                                         background="linear-gradient(#e66465, #9198e5)",
