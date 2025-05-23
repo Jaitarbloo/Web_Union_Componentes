@@ -57,7 +57,6 @@ def Ampliacion_fotos():
                 justify="center",
                 align="center",
                 width="100%",
-                bg="#1a1a2e",
                 min_height="100vh"
                     )
 

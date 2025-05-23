@@ -10,6 +10,7 @@ from Componente_Zabalgana_Web import Zabalgana_web_Vercel
 from Componente_Cambio_fondo import Cambio_fondo
 from Componente_Reborde_llamativo import Reborde_llamativo
 from Componente_Doble_fondo import Doble_fondo
+from Componente_Contacto import Contacto
 
 class State(rx.State):
     pass
@@ -20,15 +21,25 @@ def index():
                     
                     navbar(),
                     
-                    rx.heading( "WEB en construcción....disculpen las molestias",
-                                align="center",
-                                width="100%",
-                                size="9",
-                                margin_top="3em",
-                                color="red"
-                                ),
+                    rx.center(
+                                rx.heading( "WEB en construcción....disculpen las molestias",
+                                            align="center",
+                                            width="100%",
+                                            size="9",
+                                            #margin_top="3em",
+                                            color="red"
+                                            ),
+                        #spacing="4",
+                        justify="center",
+                        align="center",
+                        width="100%",
+                        height="20vh",
+                        margin_top="5em"
 
-                                        
+                          ),
+
+                    Zabalgana_web_Vercel(),
+
                     Ampliacion_fotos(),
         
                     Cambio_fondo(), 
@@ -42,9 +53,10 @@ def index():
                     Cambio_imagen(),
         
                     Reborde_llamativo(),
+
+                    Contacto(),
         
-                    Zabalgana_web_Vercel(),
-        
+                            
                 width="100%",
                 min_height="100vh", 
                 background_color="Blue",
