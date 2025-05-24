@@ -34,7 +34,8 @@ def index():
                         align="center",
                         width="100%",
                         height="20vh",
-                        margin_top="5em"
+                        margin_top="5em",
+                        background_color="blue",
 
                           ),
 
@@ -59,7 +60,8 @@ def index():
                             
                 width="100%",
                 min_height="100vh", 
-                background_color="Blue",
+                #background_color="blue",
+                background_color="#1a1a2e",
                 padding="0px"
                 
                 )

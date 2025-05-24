@@ -29,7 +29,7 @@ def Doble_fondo():
                             align="center",      # Centra verticalmente
                             justify="center",              
                             min_height="100vh",
-                            bg="#1a1a2e",
+                            background_color="blue",
                             width="100%"
                             )
                             

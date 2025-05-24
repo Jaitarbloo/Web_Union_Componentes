@@ -57,7 +57,8 @@ def Ampliacion_fotos():
                 justify="center",
                 align="center",
                 width="100%",
-                min_height="100vh"
+                min_height="100vh",
+                background_color="blue"
                     )
 
 app = rx.App()

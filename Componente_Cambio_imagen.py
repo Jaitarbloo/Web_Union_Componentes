@@ -4,13 +4,13 @@ from rxconfig import config
 
 class State(rx.State):
 
-    image_src: str = "/556334.jpg"
+    image_src: str = "/629083.jpg"
     
     def cambiar_imagen(self):
-        self.image_src = "/629083.jpg"
+        self.image_src = "/3971879.webp"
 
     def restaurar_imagen(self):
-        self.image_src = "/556334.jpg" 
+        self.image_src = "/629083.jpg" 
 
     ...
 def Cambio_imagen():
@@ -30,6 +30,7 @@ def Cambio_imagen():
                         on_mouse_enter=State.cambiar_imagen,
                         on_mouse_leave=State.restaurar_imagen,
                         margin_top="7em",
+                        border_radius="10px",
                         ),
                 justify="center",
                 align="center",

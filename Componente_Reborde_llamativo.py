@@ -25,8 +25,8 @@ def Reborde_llamativo():
                                             box_shadow="0 0 30px 0 #6cf",
                                             transition="all 0.3s ease",
                                             _hover={
-                                            "transform": "scale(1.1)",
-                                            "box_shadow": "0 0 60px 0 #6cf"},
+                                            "transform": "scale(1.5)",
+                                            "box_shadow": "0 0 400px 0 #6cf"},
                                             object_fit="cover",
                                             margin="auto",
                                             margin_top="7em"
@@ -48,7 +48,7 @@ def Reborde_llamativo():
                         ),
 
                 min_height="100vh",
-                bg="#1a1a2e",
+                background_color="blue",
                 width="100%"
                 )
 

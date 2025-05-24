@@ -22,11 +22,11 @@ def Favicon_rotando():
                             color="white"
                             ),
                 rx.image(
-                        src="/3971879.webp",
-                        width=["70vw", "320px"],  # Más grande y cuadrada
-                        height=["70vw", "320px"],
-                        max_width="320px",
-                        max_height="320px",
+                        src="/hqdefault.jpg",
+                        width=["90vw", "400px"],  # Más grande y cuadrada
+                        height=["90vw", "400px"],
+                        max_width="400px",
+                        max_height="400px",
                         style={
                             "transition": "transform 0.5s",
                             "transform": rx.cond(State.favicon_rotando, "rotate(360deg)", "rotate(0deg)"),
@@ -45,7 +45,7 @@ def Favicon_rotando():
                 justify="center",    # Centra horizontalmente
                 height="100vh",
                 width="100vw", 
-                bg="#1a1a2e"
+                background_color="blue",
 
 
     )
