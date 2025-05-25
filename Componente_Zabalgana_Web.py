@@ -7,12 +7,12 @@ class State(rx.State):
 
 def Zabalgana_web_Vercel():
     fotos = [
-        {"src": "20250413_113851.jpg",            "texto": "Desarrollo de sitios web rápidos y modernos."},
-        {"src": "python.webp",                    "texto": "Diseño responsivo para móviles y escritorio."},
+        {"src": "Reflex.png",                     "texto": "Con Reflex desarrollo aplicaciones web completas (frontend y backend), optimizando tanto tiempo de desarrollo como consistencia entre vistas estáticas y funcionalidades dinámicas."},
+        {"src": "Logotipo python.webp",           "texto": "Python me permite desarrollar sitios y aplicaciones web de forma ágil y estructurada, sin sacrificar rendimiento ni calidad. Es la base perfecta para construir productos web sólidos y fáciles de mantener."},
         {"src": "Visual-Studio-Code-Toolkit.jpg", "texto": "El potencial de bibliotecas de estilos de CSS y TailWind CSS, son imprescindibles para darle a tu web una apariencia única e innovadora."},
         {"src": "visual-studio-code.jpg",         "texto": "Visual Studio Code es mi entorno de desarrollo preferido, por su versatilidad y porque me permite mantener un flujo de trabajo ágil y organizado."},
-        {"src": "20250413_113851.jpg",            "texto": "Desarrollo de sitios web rápidos y modernos."},
-        {"src": "python.webp",                    "texto": "Diseño responsivo para móviles y escritorio."},
+        {"src": "vercel-docker-proxy.jpg",        "texto": "Vercel & Docker...gracias a ellos publico interfaces de webs modernas con tiempos de respuesta mínimos y una infraestructura optimizada para el SEO técnico, buscadores de Google, etc."},
+        {"src": "IrfanView-1.webp",               "texto": "IrfanView, como gestor de imágenes, me permite reducir el peso de los recursos gráficos sin sacrificar la calidad y de esa forma consigo que tu proyecto web sea visualmente atractivo y altamente optimizado."},
     ]
     return rx.center(
         
@@ -21,17 +21,20 @@ def Zabalgana_web_Vercel():
                             rx.heading("Desarrollador Web Fullstack", size="9"),
                             
                             rx.text("Hola, mi nombre es Jaitarbloo y me dedico a la creación integral de páginas web.",
-                                    "Aunque trabajo de forma independiente, formo parte de una gran comunidad de profesonales",
                                     
                                 size="5",
                                 align="center",
                                 width="60%",
-                                margin_top="1em",),
+                                margin_top="1em"),
+
+                            rx.heading("Tecnologías que utilizo", size="8", margin_top="2em"),
                             
                             rx.grid(
                                     *[
                                     rx.vstack( rx.image(src=f["src"], width="450px", height="300px",border_radius="8px"),
                                                rx.text(f["texto"] ,width="70%", size="3"),
+                                               justify="center",
+                                               align="center",
                                              ) for f in fotos
                                      ],
                         
@@ -39,6 +42,7 @@ def Zabalgana_web_Vercel():
                                 spacing="9",
                                 padding="4em",
                                 margin_top="2em",
+                                
                                   ),
         
                         align="center",
