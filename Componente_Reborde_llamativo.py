@@ -36,7 +36,7 @@ def Reborde_llamativo():
                                 justify="center",
                                 align_items="center",
                                 width="100%",
-                                padding="2em"
+                                #padding="20em"
                                 ),
 
                             

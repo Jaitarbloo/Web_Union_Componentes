@@ -11,6 +11,7 @@ from Componente_Cambio_fondo import Cambio_fondo
 from Componente_Reborde_llamativo import Reborde_llamativo
 from Componente_Doble_fondo import Doble_fondo
 from Componente_Contacto import Contacto
+from Componente_Web_construccion import Web_en_construccion
 
 class State(rx.State):
     pass
@@ -20,25 +21,9 @@ def index():
     return rx.vstack(
                     
                     navbar(),
-                    
-                    rx.center(
-                                rx.heading( "WEB en construcción....disculpen las molestias",
-                                            align="center",
-                                            width="100%",
-                                            size="9",
-                                            #margin_top="3em",
-                                            color="red"
-                                            ),
-                        #spacing="4",
-                        justify="center",
-                        align="center",
-                        width="100%",
-                        height="20vh",
-                        margin_top="5em",
-                        background_color="blue",
 
-                          ),
-
+                    Web_en_construccion(),
+                  
                     Zabalgana_web_Vercel(),
 
                     Ampliacion_fotos(),
@@ -60,7 +45,7 @@ def index():
                             
                 width="100%",
                 min_height="100vh", 
-                #background_color="blue",
+                #background_color="blue"
                 background_color="#1a1a2e",
                 padding="0px"
                 

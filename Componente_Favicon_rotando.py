@@ -38,7 +38,7 @@ def Favicon_rotando():
                         on_mouse_enter=State.girar_favicon,
                         on_mouse_leave=State.detener_favicon,
                         margin_bottom="1.5em",
-                        margin_top="7em"
+                        margin_top="8em"
                       
                     ),
                 align="center",      # Centra verticalmente
@@ -46,6 +46,7 @@ def Favicon_rotando():
                 height="100vh",
                 width="100vw", 
                 background_color="blue",
+                padding="4em"
 
 
     )
