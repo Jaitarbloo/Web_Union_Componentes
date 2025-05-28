@@ -1,6 +1,7 @@
 import reflex as rx
 from rxconfig import config
 
+
 from Componente_Ampliacion_fotos import Ampliacion_fotos
 from Componente_Carrusel_fotos import Carrusel
 from Componente_Favicon_rotando import Favicon_rotando
@@ -15,7 +16,6 @@ from Componente_Web_construccion import Web_en_construccion
 
 class State(rx.State):
     pass
-
 
 def index():
     return rx.vstack(
@@ -56,4 +56,8 @@ def index():
 app = rx.App( stylesheets=["/animation.css"],  # Tus hojas de estilo si las tienes
             head_components=[rx.html("<html lang='es'>")]# Indica en el leguaje en el que está la página
 )
+
+
+
+
 app.add_page(index)
