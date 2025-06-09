@@ -25,10 +25,10 @@ def Ampliacion_fotos():
                             
                             rx.box(
                                     rx.image(
-                                            src="/special-nature-scene-1280x720-wallpaper-785.jpg",
+                                            src="/Cueva.jpg",
                                             border_radius="7px",
-                                            width=rx.cond(State.expanded_coche, "600px", "250px"),
-                                            height=rx.cond(State.expanded_coche, "400px", "250px"),
+                                            width=rx.cond(State.expanded_coche, "600px", "300px"),
+                                            height=rx.cond(State.expanded_coche, "400px", "300px"),
                                             transition="all 0.5s ease-in-out",
                                             ),
                                 on_mouse_enter=State.toggle_size_coche,
@@ -39,10 +39,10 @@ def Ampliacion_fotos():
                             
                             rx.box(
                                     rx.image(
-                                            src="/wp4470764.jpg",
+                                            src="/Electrica.jpg",
                                             border_radius="7px",
-                                            width=rx.cond(State.expanded_bici, "600px", "250px"),
-                                            height=rx.cond(State.expanded_bici, "400px", "250px"),
+                                            width=rx.cond(State.expanded_bici, "600px", "300px"),
+                                            height=rx.cond(State.expanded_bici, "400px", "300px"),
                                             transition="all 0.5s ease-in-out",
                                             ),
                                 on_mouse_enter=State.toggle_size_bici,

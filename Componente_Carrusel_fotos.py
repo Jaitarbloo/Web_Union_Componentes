@@ -2,10 +2,10 @@ import reflex as rx
 
 class CarruselState(rx.State):
     imagenes: list[str] = [
-        "/concorde 1.jpg",
-        "/concorde 2.jpg", 
-        "/concorde 3.jpg",
-        "/concorde 7.jpg"
+        "/minimal-landscape-sunrise-4k-jy-1280x720.jpg",
+        "/556334.jpg", 
+        "/Arcoiris.jpg",
+        "/Aurora _voreal.jpg"
     ]
     indice_actual: int = 0
 
@@ -21,6 +21,7 @@ def Carrusel():
                             src=CarruselState.imagenes[CarruselState.indice_actual],
                             width="700px",
                             height="300px",
+                            border_radius="10px",
                             margin_top="7em"
                             ),
                     rx.moment(

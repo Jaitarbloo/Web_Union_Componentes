@@ -7,6 +7,7 @@ hero_bg_style = {
     "min_width": "75vw",
     "display": "flex",
     "align_items": "center",
+    "border_radius": "20px",
     "justify_content": "center",
     "position": "relative",
     "top": "50%",
