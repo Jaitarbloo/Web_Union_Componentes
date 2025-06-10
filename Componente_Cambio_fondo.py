@@ -7,7 +7,7 @@ def Cambio_fondo():
     
     return rx.box(
         
-                rx.text("Freelance Developer", style= hero_text_style ),#class_name="hero-text"
+                rx.text("El fondo también comunica. Hagámoslo dinámico", style= hero_text_style ),#class_name="hero-text"
                         
             style=hero_bg_style,# class_name="hero-bg"
             margin_top="20em",

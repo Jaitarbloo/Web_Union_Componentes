@@ -15,7 +15,7 @@ class State(rx.State):
     ...
 def Cambio_imagen():
     return rx.vstack(
-                    rx.text("¡Contáctame y hagamos magia juntos!",
+                    rx.text("Del estático al interactivo",
                             align="center",
                             width="100%",
                             size="8"

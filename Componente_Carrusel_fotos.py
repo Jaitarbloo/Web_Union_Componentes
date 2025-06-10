@@ -16,7 +16,7 @@ class CarruselState(rx.State):
 def Carrusel():
     
     return rx.vstack(
-                    rx.text("Talento freelance listo para tu proyecto", align="center", width="100%", size="8"),
+                    rx.text("Carrusel adaptable, pensado para captar la atención", align="center", width="100%", size="8"),
                     rx.image(
                             src=CarruselState.imagenes[CarruselState.indice_actual],
                             width="700px",

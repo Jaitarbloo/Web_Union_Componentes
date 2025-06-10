@@ -13,9 +13,6 @@ from Componente_Reborde_llamativo import Reborde_llamativo
 from Componente_Doble_fondo import Doble_fondo
 from Componente_Contacto import Contacto
 from Componente_Web_construccion import Web_en_construccion
-from Componente_Estudio_Backend import Estudio_Backend
-
-
 
 class State(rx.State):
     pass
@@ -29,8 +26,6 @@ def index():
                   
                     Zabalgana_web_Vercel(),
 
-                    Estudio_Backend(),
-                    
                     Ampliacion_fotos(),
         
                     Cambio_fondo(), 

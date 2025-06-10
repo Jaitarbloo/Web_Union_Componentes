@@ -14,7 +14,7 @@ def Favicon_rotando():
 
     return rx.vstack(
 
-                rx.text("¡Hola! Soy un desarrollador web freelance.",
+                rx.text("Diseño en movimiento para una experiencia agradable",
                             align="center",
                             width="100%",
                             size="8",
@@ -38,7 +38,7 @@ def Favicon_rotando():
                         on_mouse_enter=State.girar_favicon,
                         on_mouse_leave=State.detener_favicon,
                         margin_bottom="1.5em",
-                        margin_top="8em"
+                        margin_top="4em"
                       
                     ),
                 align="center",      # Centra verticalmente

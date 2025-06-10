@@ -4,7 +4,7 @@ def Doble_fondo():
             
                 return rx.vstack(
 
-                                rx.text("¡Hola! Soy un desarrollador web freelance.",
+                                rx.text("Doble fondo, una forma de destacar el contenido",
                                         align="center",
                                         width="100%",
                                         size="8",
@@ -24,7 +24,7 @@ def Doble_fondo():
                                         color="white",
                                         font_size="0.2em",
                                         text_align="center",
-                                        margin_top="2em",
+                                        margin_top="10em",
                                         
                                         ),
                             align="center",      # Centra verticalmente

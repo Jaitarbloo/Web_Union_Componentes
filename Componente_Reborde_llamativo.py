@@ -4,7 +4,7 @@ def Reborde_llamativo():
     return rx.center(
         rx.vstack(
             rx.text(
-                "¡Hola! Soy un desarrollador web freelance.",
+                "Detalles luminosos que refuerzan el diseño sin saturar",
                 align="center",
                 width="100%",
                 size="8",
