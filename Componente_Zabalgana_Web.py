@@ -18,6 +18,55 @@ def Zabalgana_web_Vercel():
     
     ]
 
+    
+    return rx.center(
+        rx.vstack(
+            rx.heading("Desarrollador Web Fullstack", size="9"),
+            rx.text(
+                "Hola, mi nombre es Jaitarbloo y me dedico a la creación integral de páginas web.",
+                size="5",
+                align="center",
+                width=rx.breakpoints(initial="95%", md="70%", lg="60%"),
+                margin_top="1em"
+            ),
+            rx.heading("Tecnologías que utilizo", size="8", margin_top="2em"),
+            rx.grid(
+                *[
+                    rx.vstack(
+                        rx.image(
+                            src=f["src"],
+                            width=rx.breakpoints(initial="95vw", md="350px", lg="450px"),
+                            height=rx.breakpoints(initial="200px", md="250px", lg="300px"),
+                            border_radius="8px"
+                        ),
+                        rx.text(
+                            f["texto"],
+                            width=rx.breakpoints(initial="100%", md="90%", lg="70%"),
+                            size="3"
+                        ),
+                        justify="center",
+                        align="center",
+                    ) for f in fotos
+                ],
+                columns=rx.breakpoints(initial="1", md="2", lg="3"),
+                spacing=rx.breakpoints(initial="4", md="7", lg="9"),
+                padding=rx.breakpoints(initial="1em", md="3em", lg="5em"),
+                margin_top="2em",
+            ),
+            align="center",
+            spacing="2",
+            padding=rx.breakpoints(initial="1em", md="2em", lg="4em"),
+        ),
+        justify="center",
+        align="center",
+        width="100%",
+        margin_top="2em",
+        bg="#1a1a2e"
+    )
+
+app = rx.App()
+app.add_page(Zabalgana_web_Vercel, title="Zabalgana Web")
+"""
     return rx.center(
         
                     rx.vstack(
@@ -67,3 +116,5 @@ def Zabalgana_web_Vercel():
 
 app = rx.App()
 app.add_page(Zabalgana_web_Vercel, title="Zabalgana Web")
+
+"""

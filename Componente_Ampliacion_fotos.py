@@ -13,7 +13,7 @@ class State(rx.State):
 def Ampliacion_fotos():
     return rx.vstack( 
                     
-                    rx.text("Acércate a los detalles que marcan la diferencia",
+                    rx.text("Acércate a los detalles que marcan la diferenciay",
                             align="center",
                             width="100%",
                             size="8",

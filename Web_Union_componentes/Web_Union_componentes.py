@@ -54,17 +54,7 @@ def index():
 
 
 
-app = rx.App( stylesheets=["/animation.css"],
-              
-              theme=rx.theme(
-                            appearance="dark",         # "light", "dark" o "inherit"
-                            has_background=True,        # Si aplica fondo de tema
-                            radius="large",             # "none", "small", "medium", "large", "full"
-                            accent_color="teal",       # Color principal (puedes elegir entre varios)
-                            gray_color="mauve",         # Color secundario
-                            panel_background="translucent",   # "solid" o "translucent"
-                            scaling="100%",)
-                              
-            )  # Tus hojas de estilo si las tienes
+app = rx.App( stylesheets=["/animation.css"])
+
 app.add_page(index)
 
