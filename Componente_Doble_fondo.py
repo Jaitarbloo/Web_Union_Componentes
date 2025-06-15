@@ -12,7 +12,7 @@ def Doble_fondo():
                                         color="white"
                                         ),
 
-                                #rx.box("Contenido llamativo",
+                                
                                 rx.image(
                                             src="/1871835.jpg",
                                              width="300px",
@@ -27,12 +27,12 @@ def Doble_fondo():
                                         margin_top="10em",
                                         
                                         ),
-                            align="center",      # Centra verticalmente
-                            justify="center",              
-                            min_height="100vh",
-                            background_color="blue",
-                            width="100%",
-                            padding="2em"
+                        align="center",      
+                        justify="center",              
+                        min_height="100vh",
+                        background_color="blue",
+                        width="100%",
+                        padding="2em"
                             )
                             
                             

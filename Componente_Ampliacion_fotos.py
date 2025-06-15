@@ -1,16 +1,21 @@
 import reflex as rx
 
 class State(rx.State):
+    
     expanded_coche: bool = False
     expanded_bici: bool = False
 
+    
     def toggle_size_coche(self):
         self.expanded_coche = not self.expanded_coche
 
+    
     def toggle_size_bici(self):
         self.expanded_bici = not self.expanded_bici
 
+
 def Ampliacion_fotos():
+    
     return rx.vstack( 
                     
                     rx.text("Acércate a los detalles que marcan la diferencia",

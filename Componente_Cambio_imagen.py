@@ -14,12 +14,15 @@ class State(rx.State):
 
     ...
 def Cambio_imagen():
+    
     return rx.vstack(
+                    
                     rx.text("Del estático al interactivo",
                             align="center",
                             width="100%",
                             size="8"
-                        ), 
+                            ), 
+                    
                     rx.image(
                         src=State.image_src,
                         width=["95vw", "550px"],  # Más grande y responsivo
@@ -31,7 +34,8 @@ def Cambio_imagen():
                         on_mouse_leave=State.restaurar_imagen,
                         margin_top="7em",
                         border_radius="10px",
-                        ),
+                            ),
+                
                 justify="center",
                 align="center",
                 width="100%",
