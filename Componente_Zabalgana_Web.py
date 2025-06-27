@@ -33,38 +33,42 @@ def Zabalgana_web_Vercel():
                                     margin_top="1em"
                                     ),
                             
-                                rx.heading("Tecnologías que utilizo", size="8", margin_top="2em"),
+                                rx.heading("Tecnologías que utilizo", size="9", margin_top="1em"),
                                 
                                 rx.grid(
-                                        
+
                                         *[
                                     
                                         rx.vstack(
-                                            rx.image( src=f["src"],
-                                            width=rx.breakpoints(initial="95vw", md="350px", lg="450px"),
-                                            height=rx.breakpoints(initial="200px", md="250px", lg="300px"),
-                                            border_radius="8px"
-                                            ),
+                                                    rx.image( src=f["src"],
+                                                            width=rx.breakpoints(initial="95vw", md="350px", lg="450px"),
+                                                            height=rx.breakpoints(initial="200px", md="250px", lg="300px"),
+                                                            border_radius="8px"
+                                                            ),
                                     
-                                        rx.text( f["texto"],
-                                            width=rx.breakpoints(initial="100%", md="90%", lg="70%"),
-                                            size="3"
-                                            ),
+                                                    rx.text( f["texto"],
+                                                            width=rx.breakpoints(initial="95vw", md="350px", lg="450px"),
+                                                            size="3"
+                                                        ),
+                                            
                                             justify="center",
                                             align="center",
-                                            ) for f in fotos
+                                            spacing="5",
+                                            margin_top="4em",
+                                                
+                                                ) for f in fotos
                                         ],
 
                                     columns=rx.breakpoints(initial="1", md="2", lg="2"),
-                                    spacing=rx.breakpoints(initial="4", md="7", lg="9"),
+                                    spacing=rx.breakpoints(initial="9", md="9", lg="9"), 
                                     padding=rx.breakpoints(initial="1em", md="3em", lg="5em"),
-                                    margin_top="2em",
+                                    
+                                  
                                         ),
             
                         align="center",
-                        spacing="2",
+                        spacing="4",
                         padding=rx.breakpoints(initial="1em", md="2em", lg="4em"),
-                        width=rx.breakpoints(initial="95%", md="90%", lg="80%"),
                              ),
         
                 justify="center",
