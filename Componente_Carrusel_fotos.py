@@ -34,7 +34,7 @@ def Carrusel():
                     rx.moment(
                              interval=3000,  # milisegundos
                              on_change=CarruselState.siguiente_imagen,
-                             display="none"  # el componente moment no se muestra
+                             display="none"  
                             ),
                 
                 justify="center",
