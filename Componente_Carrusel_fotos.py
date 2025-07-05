@@ -37,7 +37,7 @@ def Carrusel():
                              display="none"  
                             ),
                 
-                justify="center",
+                justify="center" ,
                 align="center",
                 width="100%",
                 min_height="100vh"
