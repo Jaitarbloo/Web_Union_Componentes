@@ -62,4 +62,4 @@ STOPSIGNAL SIGKILL
 
 # Always apply migrations before starting the backend.
 CMD [ -d alembic ] && reflex db migrate; \
-    exec reflex run --env prod --backend-only --backend-port ${PORT:-8000}docc
+    exec reflex run --env prod --backend-only --backend-port ${PORT:-8000}
