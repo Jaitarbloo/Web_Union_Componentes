@@ -1,5 +1,12 @@
+<<<<<<< HEAD
 .web
 .git
 __pycache__/*
 Dockerfile
+=======
+.web
+.git
+__pycache__/*
+Dockerfile
+>>>>>>> f7fde0b (Actualización de mi web y componentes)
 uploaded_files
