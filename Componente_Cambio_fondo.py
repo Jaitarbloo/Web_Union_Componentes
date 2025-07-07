@@ -9,8 +9,8 @@ def Cambio_fondo():
         
                     rx.text("El fondo también comunica Hagámoslo dinámico", style= hero_text_style ),
                         
-            style=hero_bg_style,
-            margin_top="20em",
+            style=hero_bg_style ,
+            margin_top="20em", 
                     )
     
     
