@@ -22,7 +22,7 @@ def index():
                     
                     navbar(),
 
-                    Web_en_construccion(),
+                    #Web_en_construccion(),
                   
                     Zabalgana_web_Vercel(),
 
