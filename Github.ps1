@@ -1,4 +1,5 @@
-#IMPORTANTE.....activar todo este codigo con el comando......       .\Github.ps1
+#IMPORTANTE.....activar todo este codigo con el comando......       
+
 
 
 git add .
