@@ -19,5 +19,5 @@ config = rx.Config(
         "https://api.zabalgana.com",   # Backend desplegado en Render
         "http://localhost:3000"        # Desarrollo local
     ],
-    disable_plugins=["reflex.plugins.sitemap.SitemapPlugin"]  # Para quitar el warning de sitemap
+    disable_plugins=["reflex.plugins.sitemap.SitemapPlugin"]  
 )
