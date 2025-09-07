@@ -56,5 +56,7 @@ def index():
 
 app = rx.App( stylesheets=["/animation.css"])
 
+
+
 app.add_page(index)
 
