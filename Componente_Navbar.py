@@ -13,14 +13,24 @@ def navbar() -> rx.Component:
             
                                 rx.link(
                                         
-                                        rx.text("Desarrollo y Diseño",
+                                        rx.text("Contáctame",
                                                 size="6",
                                                 color_scheme="gray",
                                                 ),
                                     
-                                    href="https://reflex.dev",
+                                    href="https://zabalgana.com",
                                     ),
             
+                                rx.link(
+                
+                                        rx.text("jaitarbloo@yahoo.es",
+                                                size="6",
+                                                color_scheme="gray",
+                                                ),
+                
+                                    href="https://zabalgana.com",
+                                    ),
+
                                 rx.link(
                 
                                         rx.text("Frameworks modernos",
@@ -28,26 +38,16 @@ def navbar() -> rx.Component:
                                                 color_scheme="gray",
                                                 ),
                 
-                                    href="https://reflex.dev",
-                                    ),
-
-                                rx.link(
-                
-                                        rx.text("Trato cercano",
-                                                size="6",
-                                                color_scheme="gray",
-                                                ),
-                
-                                    href="https://reflex.dev",
+                                    href="https://zabalgana.com",
                                      ),
                                 rx.link(
                     
-                                        rx.text("Contáctame",
+                                        rx.text("Desarrollo y diseño",
                                         size="6",
                                         color_scheme="gray",
                                                 ),
                 
-                                    href="https://reflex.dev",
+                                    href="https://zabalgana.com",
                                         ),
             
                                 rx.spacer(),
